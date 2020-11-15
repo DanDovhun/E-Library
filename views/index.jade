@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.search.jumbotron
+    h1=title
+
+    div.input-group.mb-3
+      input(type="text" class="form-control input-field" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);")
+      
+      div.input-group-append
+        <button class="search-button" type="submit" onclick="createDB()">Hľadať</button> 

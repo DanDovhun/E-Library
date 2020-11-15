@@ -1,8 +1,35 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: tzimmes, serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 a {
   color: #00B7FF;
+}
+
+.search {
+  color: white;
+  background-color: rgba(120, 140, 255, 1);
+  text-align: center;
+  padding: 5em;
+  border-radius: 0px;
+}
+
+.form-control {
+  margin-top: 3em;
+  border: 1px solid rgb(180, 230, 180);
+}
+
+.search-button {
+  color: rgb(50, 50, 50);
+  border: 1px solid rgb(100, 140, 120);
+  margin-top: 2.4em;
+  background-color: rgb(180, 230, 180);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 10em;
+  font-size: 20px;
 }
