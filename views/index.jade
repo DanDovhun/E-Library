@@ -1,11 +1,55 @@
 extends layout
 
 block content
-  div.search.jumbotron
+  div.search
     h1=title
 
     div.input-group.mb-3
-      input(type="text" class="form-control input-field" id="x" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);")
+      input(type="text" class="form-control input-field" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);")
       
       div.input-group-append
-        <button class="search-button" type="submit" onclick="createDB()">Hľadať</button> 
+        <button class="search-button" type="submit" onclick="showResults()">Hľadať</button> 
+
+    h3 Hľadať podľa:
+
+    div.form-check-inline
+      label(class="form-check-label" for="title")
+        <input type="radio" class="form-check-input" id="all" name="filter" value="all" checked>Zobraziť všetko
+
+    div.form-check-inline
+      label(class="form-check-label" for="title")
+        <input type="radio" class="form-check-input" id="title" name="filter" value="title">Názvu
+
+    div.form-check-inline
+      label(class="form-check-label" for="author")
+        <input type="radio" class="form-check-input" id="author" name="filter" value="author">Autora
+
+    div.form-check-inline
+      label(class="form-check-label" for="language")
+        <input type="radio" class="form-check-input" id="language" name="filter" value="language">Jazyku
+
+    div.form-check-inline
+      label(class="form-check-label" for="genre")
+        <input type="radio" class="form-check-input" id="genre" name="filter" value="genre">Žánru
+
+    div.form-check-inline
+      label(class="form-check-label" for="room")
+        <input type="radio" class="form-check-input" id="room" name="filter" value="room">Miestnosti
+
+    div.form-check-inline
+      label(class="form-check-label" for="shelf")
+        <input type="radio" class="form-check-input" id="shelf" name="filter" value="shelf">Poličky
+
+  div.outputs
+    h1.result Výsledky
+    table(class="table")
+      thead
+        tr
+          th Názov
+          th Autor
+          th Jazyk
+          th Žáner
+          th Miestnosť
+          th Polička
+
+      tbody#output

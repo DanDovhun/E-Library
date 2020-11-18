@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sk-Sk">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/scripts.js"></script>
+    <script src="javascripts/animate.js"></script>
+  </head>
+  <body>
+    <div class="search">
+      <h1></h1>
+      <div class="input-group mb-3">
+        <input type="text" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);" class="form-control input-field">
+        <div class="input-group-append"><button class="search-button" type="submit" onclick="showResults()">Hľadať</button> </div>
+      </div>
+      <h3>Hľadať podľa:</h3>
+      <div class="form-check-inline">
+        <label for="title" class="form-check-label"><input type="radio" class="form-check-input" id="all" name="filter" value="all" checked>Zobraziť všetko</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="title" class="form-check-label"><input type="radio" class="form-check-input" id="title" name="filter" value="title">Názvu</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="author" class="form-check-label"><input type="radio" class="form-check-input" id="author" name="filter" value="author">Autora</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="language" class="form-check-label"><input type="radio" class="form-check-input" id="language" name="filter" value="language">Jazyku</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="genre" class="form-check-label"><input type="radio" class="form-check-input" id="genre" name="filter" value="genre">Žánru</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="room" class="form-check-label"><input type="radio" class="form-check-input" id="room" name="filter" value="room">Miestnosti</label>
+      </div>
+      <div class="form-check-inline">
+        <label for="shelf" class="form-check-label"><input type="radio" class="form-check-input" id="shelf" name="filter" value="shelf">Poličky</label>
+      </div>
+    </div>
+    <div class="outputs">
+      <h1 class="result">Výsledky</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Názov</th>
+            <th>Autor</th>
+            <th>Jazyk</th>
+            <th>Žáner</th>
+            <th>Miestnosť</th>
+            <th>Polička</th>
+          </tr>
+        </thead>
+        <tbody id="output"></tbody>
+      </table>
+    </div>
+  </body>
+</html>

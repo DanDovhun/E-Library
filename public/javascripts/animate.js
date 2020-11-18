@@ -14,4 +14,6 @@ $(document).ready(function() {
     $(".form-control").mouseleave(function() {
         $(this).css("border", "1px solid rgba(100, 120, 255, 0.6)");
     });
+
+    $(".outputs").hide();
 });
