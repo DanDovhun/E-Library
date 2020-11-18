@@ -1,0 +1,10 @@
+Hobbit; J. R. R. Tolkien; Slovenčina; Fantasy; Moja izba; A
+Hobbit; J. R. R. Tolkien; Čeština; Fantasy; Moja izba; A
+Lord of the Rings; J. R. R. Tolkien; Čeština; Fantasy; Moja izba; A
+Harry Potter; J. K. Rowling; Slovenčina; Fantasy; Pivnica; A
+Saecolum; Ursula Poznansky; Slovenčina; Fantasy; Moja izba; A
+Java 8; Herbert Schildt; Čeština; Náučná; Moja izba; A
+Stalker; Lars Kepler; Slovenčina; Krimi; Moja izba; A
+15 ročný kapitán; Jules Verne; Slovenčina; Adventure; Moja izba; A
+Dva roky prázdnin; Jules Verne; Slovenčina; Adventure; Moja izba; A
+Physics of impossible; Michio Kaku; Angličtina; Náučná; Moja izba; A
