@@ -2,13 +2,7 @@ extends layout
 
 block content
   div.search
-    h1=title
-
-    div.input-group.mb-3
-      input(type="text" class="form-control input-field" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);")
-      
-      div.input-group-append
-        <button class="search-button" type="submit" onclick="showResults()">Hľadať</button> 
+    h1=title 
 
     h3 Hľadať podľa:
 
@@ -39,6 +33,14 @@ block content
     div.form-check-inline
       label(class="form-check-label" for="shelf")
         <input type="radio" class="form-check-input" id="shelf" name="filter" value="shelf">Poličky
+
+    div.input-group.mb-3.seatching
+      input(type="text" class="form-control input-field" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);")
+      
+      div.input-group-append
+        <button class="search-button" type="submit" onclick="showResults()">Hľadať</button>
+
+    
 
   div.outputs
     h1.result Výsledky

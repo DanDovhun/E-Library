@@ -1,84 +1,2844 @@
 {
     "books": [
         {
-            "title": "Hobbit",
-            "author": "J. R. R. Tolkien",
+            "title": "Ako t\u00e1bori\u0165: Sprievodca pr\u00edrodov",
+            "author": "Lynn Brunelle",
             "language": "Sloven\u010dina",
-            "genre": "Fantasy",
-            "room": "Moja izba",
-            "shelf": "A"
-        },
-        {
-            "title": "Hobbit",
-            "author": "J. R. R. Tolkien",
-            "language": "\u010ce\u0161tina",
-            "genre": "Fantasy",
-            "room": "Moja izba",
-            "shelf": "A"
-        },
-        {
-            "title": "Lord of the Rings",
-            "author": "J. R. R. Tolkien",
-            "language": "\u010ce\u0161tina",
-            "genre": "Fantasy",
-            "room": "Moja izba",
-            "shelf": "A"
-        },
-        {
-            "title": "Harry Potter a väzeň z Azabanu",
-            "author": "J. K. Rowling",
-            "language": "Sloven\u010dina",
-            "genre": "Fantasy",
-            "room": "Pivnica",
-            "shelf": "A"
-        },
-        {
-            "title": "Saecolum",
-            "author": "Ursula Poznansky",
-            "language": "Sloven\u010dina",
-            "genre": "Fantasy",
-            "room": "Moja izba",
-            "shelf": "A"
-        },
-        {
-            "title": "Java 8",
-            "author": "Herbert Schildt",
-            "language": "\u010ce\u0161tina",
             "genre": "N\u00e1u\u010dn\u00e1",
-            "room": "Moja izba",
+            "room": "Danov\u00e1 izba",
             "shelf": "A"
         },
         {
-            "title": "Stalker",
+            "title": "The Genius Files: Never Say Genius",
+            "author": "Dan Gutman",
+            "language": "Angli\u010dtina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Hrajme sa s matematikou",
+            "author": "Tam\u00e1s Varga",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "\u0160kola keramiky",
+            "author": "Steve Mattison",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Lovec kr\u00e1likov",
             "author": "Lars Kepler",
             "language": "Sloven\u010dina",
-            "genre": "Krimi",
-            "room": "Moja izba",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
             "shelf": "A"
         },
         {
-            "title": "15 ro\u010dn\u00fd kapit\u00e1n",
+            "title": "El Gran Baile de los Caricacos y otros relatos de Costa Rica",
+            "author": "Anne Seingol & Yvette Castro",
+            "language": "\u0160paniel\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "M\u00e1miferos en peligro: Entre dantas tepezcuintles y sainos",
+            "author": "Claudia Z\u00fa\u00f1iga",
+            "language": "\u0160paniel\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Biblick\u00e1 pr\u00edbehy pre cel\u00fa rodinu",
+            "author": "Parragon",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Astrofyzika pre zanepr\u00e1zdnen\u00fdch",
+            "author": "Neil de Grasse Tyson",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Biblia",
+            "author": "Gustave Dor\u00e9",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Digit\u00e1ln\u00ed fotografie v Lightroom 5",
+            "author": "Scott Kelby",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Gold Coast and Hinterland",
+            "author": "Peter Lik",
+            "language": "Angli\u010dtina",
+            "genre": "Cestovate\u013esk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vaideology",
+            "author": "Steve Vai",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "I.M.T. SMILE: Spevn\u00edk",
+            "author": "I.M.T. SMILE",
+            "language": "Sloven\u010dina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Hobit",
+            "author": "J. R. R. Tolkien",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Star Wars: Catalyst",
+            "author": "James Luceno",
+            "language": "Angli\u010dtina",
+            "genre": "Sci-Fi",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Slovensk\u00e9 Rozpr\u00e1vky",
+            "author": "Pavol Dob\u0161insk\u00fd",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "30 sek\u00fand n\u00e1bo\u017eenstiev",
+            "author": "Russell Re Manning",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Patn\u00e1cilet\u00fd Kapit\u00e1n",
+            "author": "Jules Verne",
+            "language": "\u010ce\u0161tina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Doktor Proktor a koniec sveta. Mo\u017eno",
+            "author": "Jo Nesbo",
+            "language": "Sloven\u010dina",
+            "genre": "Sci-Fi",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Nezbl\u00e1zni sa, mami\u010dka",
+            "author": "Gabriela Futov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Rozpr\u00e1vky pre neposlu\u0161n\u00e9 deti a ich starostliv\u00fdch rodi\u010dov",
+            "author": "Joyef Gertli Dangl\u00e1r",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Slovensk\u00e9 Rozpr\u00e1vky",
+            "author": "Pavol Dob\u0161insk\u00fd",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Najv\u00e4\u010d\u0161ia kniha k\u00faziel",
+            "author": "Pasqual Romano",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Ve\u013ek\u00e1 kniha slovensk\u00fdch rozpr\u00e1vok",
+            "author": "\u013dubom\u00edr Feldek",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Fyzika",
+            "author": "Ivan Tepli\u010dka",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "PHP a XML",
+            "author": "Ji\u0159i Kosek",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Digit\u00e1lny vek: 50 my\u0161lienok ktor\u00e9 by ste mali pozna\u0165",
+            "author": "Tom Chatfield",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Sklad\u00e1me origami",
+            "author": "Paul Jackson",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Kosti na pl\u00e1\u017ei",
+            "author": "Kathy Reichs",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Percy Jackson: Sea of Monsters",
+            "author": "Rick Riordan",
+            "language": "Angli\u010dtina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Dobrodru\u017estv\u00e1 Toma Sawyera a Huckleberryho Finna",
+            "author": "Mark Twain",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Fantastick\u017e p\u00e1n Li\u0161iak",
+            "author": "Roald Dahl",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Zat\u00falan\u00fd Gomb\u00edk",
+            "author": "Zuzana Csontosov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Statky-zm\u00e4tky",
+            "author": "Joyef Gregor-Tajovsk\u00fd",
+            "language": "Sloven\u010dina",
+            "genre": "Dr\u00e1ma",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Nineteen Eighty-Four",
+            "author": "George Orwell",
+            "language": "Angli\u010dtina",
+            "genre": "Dystopia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Isl\u00e1m",
+            "author": "Shaykh Fadhlalla Haeri",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Cesta na mesiac",
             "author": "Jules Verne",
             "language": "Sloven\u010dina",
-            "genre": "Adventure",
-            "room": "Moja izba",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Morsk\u00e1 obluda",
+            "author": "Jules Verne",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Cesta do stredu zeme",
+            "author": "Jules Verne",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Templ\u00e1\u0159i: Fakta a m\u00fdtus",
+            "author": "Michael Haag",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Zmluva pod\u013ea Paganiniho",
+            "author": "Lars Kepler",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Stra\u0161n\u00ed Rimania",
+            "author": "Terry Deary",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "U\u010debnica pre \u0161of\u00e9rov a auto\u0161koly",
+            "author": "\u013dubom\u00edr Tvor\u00edk",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vra\u017eedn\u00e9 Tajomstv\u00e1",
+            "author": "Kathy Reichs",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Pr\u00edbeh o Z\u00fafal\u010dekovy",
+            "author": "Kate DiCamillov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "101 Things I Learned in Culinary School",
+            "author": "Louis Eguras & Matthew Frederick",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Sedem kr\u00e1tkych predn\u00e1\u0161ok o fyzike",
+            "author": "Carlo Rovelli",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "The Genius Files: Mission Unstopable",
+            "author": "Dan Gutman",
+            "language": "Angli\u010dtina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Nem\u00fd svedok",
+            "author": "Michael Hjort & Hans Rosenfeldt",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Kl\u00e1ra a Iglu",
+            "author": "Petra Nagyov\u00e1 D\u017eerengov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Why Beethoven Threw the Stew",
+            "author": "Steve Isserlis",
+            "language": "Angli\u010dtina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Mientras haya vida... Hay lucha",
+            "author": "Carlos Aguilar Ruiy",
+            "language": "\u0160paniel\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Aristoteles a Dante spozn\u00e1vaj\u00fa svet a tajomstv\u00e1 versm\u00edru",
+            "author": "Benjamin Alire S\u00e1enz",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Cesta prav\u00e9ho mu\u017ea",
+            "author": "David Deida",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Gogo: Chalan z internetu",
+            "author": "Daniel Sebastian \u0160trauch",
+            "language": "Sloven\u010dina",
+            "genre": "Biografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Laz\u00e1r",
+            "author": "Lars Kepler",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "P\u00e1n Trag\u00e1\u010dik a tajomstvo nad tajomstvami",
+            "author": "Zbigniew Nienacki",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Hore srdcia",
+            "author": "Gr\u00e9ckokatolic\u00e1 Eparchia, Ko\u0161ice",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "M\u00f4j pam\u00e4tn\u00edk k prv\u00e9mu sv\u00e4t\u00e9mu prij\u00edmaniu",
+            "author": "J\u00e1n Such\u00e1\u0148",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "7 n\u00e1vyk\u016f skute\u010dn\u011b efektivn\u00edch lid\u00ed",
+            "author": "Stephen Covey",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "NodeJS: Okam\u017eit\u011b",
+            "author": "Don Nguyen",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Pequenos Preludios e Fugetas",
+            "author": "Bach - Buonamici",
+            "language": "Talian\u010dina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Trestn\u00fd z\u00e1kon: Z\u00e1kon o trestnej zodpovednosti pr\u00e1vnickych os\u00f4b",
+            "author": "Slovensk\u00e1 republika",
+            "language": "Sloven\u010dina",
+            "genre": "Z\u00e1kon",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Piano Adventures 2B",
+            "author": "Nancz Faber & Randall Faber",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Piano Adventures 2A",
+            "author": "Nancz Faber & Randall Faber",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Piano Adventures Level 1",
+            "author": "Nancz Faber & Randall Faber",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Celebrated Piano Solos",
+            "author": "Allans Music Australia",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Tuneful Technique",
+            "author": "William Lovelock",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Stupnice pro piano",
+            "author": "E. Kraus",
+            "language": "\u010ce\u0161tina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Programov\u00e1n\u00ed pro \u00fapln\u00e9 za\u010d\u00e1te\u010dn\u00edky",
+            "author": "Radek Hylmar",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "H\u00farinov\u00e9 deti",
+            "author": "J. R. R. Tolkien & Christopher Tolkien",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Hr\u00e1me na gitare",
+            "author": "Barnes & Noble Books",
+            "language": "Sloven\u010dina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Sapiens: A Brief History of Human Kind",
+            "author": "Yuval Noah Harari",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Spasite\u013e",
+            "author": "Jo Nesbo",
+            "language": "Angli\u010dtina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "\u010co keby",
+            "author": "Randall Munroe",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Pravidlo \u0161tyroch",
+            "author": "Ian Caldwell & Dustin Thomason",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vampir\u00e1ti: \u010ciern\u00e9 srdcia",
+            "author": "Justin Somper",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vampir\u00e1ti: Pr\u00edliv hr\u00f4zi",
+            "author": "Justin Somper",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Tie\u0148 hada",
+            "author": "Rick Riordan",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "\u010ci\u0148-\u010ci\u0148",
+            "author": "\u013dudmila Podjavorinsk\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 b\u00e1sni\u010dky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Cantervillsk\u00e9 stra\u0161idlo",
+            "author": "Nov\u00fd \u010cas",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Neubl\u00ed\u017ei\u0161",
+            "author": "Kelly Parsons",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "P\u00e1n Trag\u00e1\u010dik a z\u00e1klady Fromborku",
+            "author": "Zbigniew Nienacki",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Najmlad\u0161\u00ed ve\u013ek\u0148az",
+            "author": "Ladislav Varga & Mariana Komorov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Prvoroden\u00fd",
+            "author": "Filip Alexanderson",
+            "language": "Sloven\u010dina",
+            "genre": "Detekt\u00edvka",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Spod Kro\u0161ne veselo a v\u00e1\u017ene",
+            "author": "Jaro \u0160vorc & Pa\u013eo Barbar\u00e1\u0161",
+            "language": "Sloven\u010dina",
+            "genre": "Poviedky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Star Wars: The Force Awakens",
+            "author": "Alan Dean Foster",
+            "language": "Angli\u010dtina",
+            "genre": "Sci-Fi",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Detsk\u00e1 univerzita aj pre dospel\u00fdch",
+            "author": "Univerzita Komensk\u00e9ho",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "P\u00e4tn\u00e1s\u0165 ro\u010dn\u00fd kapit\u00e1n",
+            "author": "Jules Verne",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
             "shelf": "A"
         },
         {
             "title": "Dva roky pr\u00e1zdnin",
             "author": "Jules Verne",
             "language": "Sloven\u010dina",
-            "genre": "Adventure",
-            "room": "Moja izba",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
             "shelf": "A"
         },
         {
-            "title": "Physics of impossible",
+            "title": "Kroniky z\u00e1padn\u00e9ho pobre\u017eia: Sily",
+            "author": "Ursula K. Le Guin",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "brain trickery",
+            "author": "mindbending",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Mar\u0165an",
+            "author": "Andy Weir",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Legendy Zlat\u00e9ho mesta",
+            "author": "Juraj \u010cerven\u00e1k",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "A Dictionary of Tolkien",
+            "author": "David Day",
+            "language": "Angli\u010dtina",
+            "genre": "Slovn\u00edk",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Silmarillion",
+            "author": "J. R. R. Tolkien & Christopher Tolkien",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Artemis Fowl",
+            "author": "Eoim Colfer",
+            "language": "Angli\u010dtina",
+            "genre": "Sci-Fi",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Ihrisko",
+            "author": "Lars Kepler",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Experiment",
+            "author": "Veronica Roth",
+            "language": "Sloven\u010dina",
+            "genre": "Dystopia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Physics of the Impossible",
             "author": "Michio Kaku",
             "language": "Angli\u010dtina",
             "genre": "N\u00e1u\u010dn\u00e1",
-            "room": "Moja izba",
+            "room": "Danov\u00e1 izba",
             "shelf": "A"
+        },
+        {
+            "title": "Hobit",
+            "author": "J. R. R. Tolkien",
+            "language": "\u010ce\u0161tina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Podivuhodn\u00e9 posolstvo z inej plan\u00e9ty",
+            "author": "Herman Hesse",
+            "language": "Sloven\u010dina",
+            "genre": "Detsk\u00e9 rozpr\u00e1vky",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "K\u0148az na veky",
+            "author": "\u0160tefan Sandtner",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Saeculum",
+            "author": "Ursula Poynanski",
+            "language": "Sloven\u010dina",
+            "genre": "Fantasy",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Playalong Piano: 16 Charts Hits",
+            "author": "Wise Publications",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Python 3: V\u00fdukov\u00fd kurz",
+            "author": "Mark Summerfield",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Telo ako posil\u0148ov\u0148a: Biblia cvi\u010den\u00ed hmotnos\u0165ou tela",
+            "author": "Mark Lauren & Joshua Clark",
+            "language": "Sloven\u010dina",
+            "genre": "Zdravie",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Nau\u010dte se C++ za 21 dn\u00ed",
+            "author": "Jesse Leberty",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "The Republic",
+            "author": "Plato",
+            "language": "Angli\u010dtina",
+            "genre": "Filozofia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "MySQL: Okam\u017eit\u011b",
+            "author": "Timothz Boronczyk",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Java 8: V\u00fdukov\u00fd kurz",
+            "author": "Herbert Schildt",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Socrates' Defence",
+            "author": "Plato",
+            "language": "Angli\u010dtina",
+            "genre": "Filozofia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "D7000: User's Manual",
+            "author": "Nikon",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1vod",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "HTML5 a CSS3",
+            "author": "Brian P. Hogan",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "1001 tip\u016f pro C++",
+            "author": "Miroslav Virius",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Programujeme hry v HTML5",
+            "author": "Makzan",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vulcanoes! Mountains of Fire",
+            "author": "Eric Arnold",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Matematika: 50 my\u0161lienok ktor\u00e9 by ste mali pozna\u0165",
+            "author": "Tony Crilly",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "CSS: Pr\u016fvodce modern\u00edho webdesignu",
+            "author": "Peter Gasston",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Pamiatka na prv\u00e9 sv\u00e4t\u00e9 prij\u00edmanie",
+            "author": "Daniel Dovhun",
+            "language": "Sloven\u010dina",
+            "genre": "Denn\u00edk",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Java: Bez p\u0159edchoz\u00edch znalosti",
+            "author": "Eli\u0161ka Roubalov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vytv\u00e1\u0159\u00edme mobiln\u00ed web a aplikace pro chytr\u00e9 telefony a tablety",
+            "author": "Erle Castledine & Myles Eftos & Max Wheeler",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Profesion\u00e1ln\u00ed webdesign: Techniky a vzovov\u00e1 \u0159e\u0161en\u00ed v CSS a XHTML",
+            "author": "Clint Eccher",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "WordPress for Dummies",
+            "author": "Lisa Sabin-Wilson",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "J\u00e1, p\u00edsni\u010dka 2 - zp\u011bvnik pro 5. - 9. t\u0159\u00eddu",
+            "author": "PhDr. Pavel Klapetek, Dr. Franti\u0161ek Mouryc",
+            "language": "\u010ce\u0161tina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Efektivn\u00ed anal\u00fdza a vyu\u017eit\u00ed dat",
+            "author": "Zach Gemignani & Chris Gemignani & Richard Galentino & Patrick Schuermann",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Bitcoin Billionaires: A True Story of Genius, Betrayl and Redemption",
+            "author": "Ben Mezrich",
+            "language": "Angli\u010dtina",
+            "genre": "Biografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Neuverite\u013en\u00e9 Dobrodru\u017estva Barsacovej V\u00fdpravy",
+            "author": "Jules Verne",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Enchanting Sweden",
+            "author": "Sophia Simone",
+            "language": "Angli\u010dtina",
+            "genre": "Fotografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Reflections",
+            "author": "Ken Duncan",
+            "language": "Angli\u010dtina",
+            "genre": "Fotografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Reflections 2",
+            "author": "Ken Duncan",
+            "language": "Angli\u010dtina",
+            "genre": "Fotografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Reflections 3",
+            "author": "Ken Duncan & Leo Meier",
+            "language": "Angli\u010dtina",
+            "genre": "Fotografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Songs From the Heart",
+            "author": "Hal Leonard",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "The Beatles Complete Guitar/Vocal Edition",
+            "author": "The Beatles",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Hobby Origami: Papierov\u00e9 sklada\u010dky pre ve\u013ek\u00fdch aj mal\u00fdch",
+            "author": "Z\u00fclal Ayt\u00fcre-Scheelov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Veda: Unik\u00e1tny obr\u00e1zkov\u00fd sprievodca",
+            "author": "Adam Hart-Davis",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Harry Potter: Filmov\u00e9 \u010dary",
+            "author": "Brian Sibley",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Beginner's Guide to Digital Photography",
+            "author": "BDM",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Kniha na cel\u00fd rok",
+            "author": "Angela Wilkesov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "1000 faktov",
+            "author": "John Guest",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Otestuj si znalosti: Hist\u00f3ria",
+            "author": "Jacob F. Field",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Lietanie na vlastn\u00e9 o\u010di",
+            "author": "Von Hardesty",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Starov\u011bk\u00e9 civilizace",
+            "author": "Viacero autorov",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Wonders of the Universe",
+            "author": "Discovery Science",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Fotokniha",
+            "author": "Daniel Dovhun",
+            "language": "Sloven\u010dina",
+            "genre": "Fotografia",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "The Independent Guide to Minecraft",
+            "author": "Micro Mart",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Su\u0161i",
+            "author": "Ikar",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "365 zauj\u00edmavosti",
+            "author": "Gill Davies",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Ako sa sta\u0165 objavite\u013eom: Pr\u00edru\u010dka dobrodruha",
+            "author": "Henry Hardcastle",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Piratol\u00f3gia",
+            "author": "Dugal Steer",
+            "language": "Sloven\u010dina",
+            "genre": "Dobrodru\u017en\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Year 10 Advanced Mathematics Revision & Exam Workbook",
+            "author": "AS Kalra",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "The Human Body Exhibition",
+            "author": "Francis Bacon",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Nov\u00e1 kniha hlavolamov",
+            "author": "Ivan Moscovich",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Yamaha Clavinova",
+            "author": "Yamaha",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1vod",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Ak\u00e9 i/y sa p\u00ed\u0161e?",
+            "author": "Lucia Gianitsov\u00e1-Olo\u0161tiankov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Slovensk\u00fd jazyk a literat\u00fara",
+            "author": "Milada Calt\u00edkov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Beautiful Piano Solos for Dummies",
+            "author": "Adam Perlmutter",
+            "language": "Angli\u010dtina",
+            "genre": "Hudba",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "JavaScript: Okam\u017eit\u011b",
+            "author": "Ara Pehlivanian & Don Nguyen",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Danov\u00e1 izba",
+            "shelf": "A"
+        },
+        {
+            "title": "Vesm\u00edr vo orechovej \u0161krupine",
+            "author": "Stephen Hawking",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Leading People: Be the Change You Want to See",
+            "author": "Partners in Winner",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "First Footprints: The epic story of the First Australians",
+            "author": "Scott Cane",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Helping People Change: Coaching with Compassion for Lifelong Learning and Growth",
+            "author": "Richard Boyatzis, Melvin Smith, Ellen Van Oosten",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Fifth Discipline Fieldbook: Strategies and Tools For Building a Learning Organization",
+            "author": "Peter M. Senge, Richard Loss, Bryan Smith, Charlotte Roberts, Art Kleiner",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Fifth Discipline: The Art & Practice of The Learning Organization",
+            "author": "Peter M. Senge",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Great Game of Business",
+            "author": "Jack Stack",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ekonomie",
+            "author": "Paul A. Samuelson, William D. Nordhaus",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "International Business: Theory and Managerial Application",
+            "author": "Robert Grosse, Duane Kujawa",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Strategic Management: An Integrated Approach",
+            "author": "Charles W. L. Hill, Gareth R. Jones",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Marketing Management: Anal\u00fdza pl\u00e1nov\u00e1n\u00ed vyu\u017eit\u00ed kontrola (Vydanie 9.)",
+            "author": "Kotler Philip",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Contemporary Advertising (Third Edition)",
+            "author": "Courtland L. Bov\u00e9e, William F. Arens",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "In Search of Excellence: Lessons from America's Best-Run Companies",
+            "author": "Tom Peters, Robert H. Waterman Jr.",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "A Stake in the Outcome: Building a Culture of Ownership For the Long Term Success of Your Business",
+            "author": "Jack Stack, Bo Burlingham",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Great Game of Business: The Only Sensible Way to Run a Company",
+            "author": "Jack Stack, Bo Burlingham",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Turn the Ship Around: How to Create Leadership at Every Level",
+            "author": "L. David Marquet",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Betting the House, Beating the Odds: Kirit Chimanlal Shah's transformation of Gangjee Premjee & Co",
+            "author": "Greg Lowe",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The 4 Disciplines of Execution: Achieving Your Wildly Important Goals",
+            "author": "Chris McChesney, Sean Covey, Jim Huling",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Mastering the Rockefeller Habits: What you Must Do to Increase the Value of Your Growing Firm",
+            "author": "Verne Harnish",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Scaling Up: Mastering the Rockefeller Habits 2.0",
+            "author": "Verne Harnish",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Spin: How to turn the power of the press to your advantage",
+            "author": "Michael S. Sitrick",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Power and Choice: An Introduction to Political Science (Second Edition)",
+            "author": "W. Philips Shively",
+            "language": "Angli\u010dtina",
+            "genre": "Politics",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Power to Compete",
+            "author": "Ryoichi Mikitani + Hiroshi Mikitani",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Go Put Your Strengths to Work: 6 Powerful Strengths to Achieve Outstanding Performance",
+            "author": "Marcus Buckingham",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Strategy for Sustainability: A business Manifesto",
+            "author": "Adam Werbach",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Passion and Purpose",
+            "author": "John Coleman, Daniel Gulati, W. Oliver Segovia, Bil George",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Market Driven Strategy: Process for Creating Value",
+            "author": "George S. Day",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Dynamic Organisations",
+            "author": "David Jackson",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Great By Choice: Uncertaintz, Chaos and Luck",
+            "author": "Jim Collins, Morten T. Hansen",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Good to Great",
+            "author": "Jim Collins",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Drive Business Performance: Enabling a Culture of Intelligent Execution",
+            "author": "Bruno Aziza, Joey Fitts",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Pursuit of Prime: Maximize your Company's Success With the Adizes Program",
+            "author": "Ph.D. Ichak Adizes",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Co-opetition",
+            "author": "Adam M. Brandenburger, Barry J. Nalebuff",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Firmy, ktor\u00e9 pretrvavj\u00fa (Built to Last)",
+            "author": "Jim Collins, Jerry I. Porras",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Z dobr\u00e9ho skvel\u00e9",
+            "author": "Jim Collins",
+            "language": "Sloven\u010dina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "FYI (For Your Improvement, 3rd Edition)",
+            "author": "Michael M. Lombardo, Robert W. Eichinger",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "FYI (For Your Improvement, 4th Edition)",
+            "author": "Michael M. Lombardo, Robert W. Eichinger",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "How the Mighty Fall: and why some companies never give in",
+            "author": "Jim Collins",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Konec d\u011bjin a posledn\u00ed \u010dlov\u011bk",
+            "author": "Francis Fukuyama",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Bohatsv\u00ed a b\u00edda n\u00e1rod\u016f: Pro\u010d jsou n\u011bkte\u0159\u00ed tak bohat\u00ed a n\u011bkte\u0159\u00ed tak chud\u00ed",
+            "author": "David S. Landes",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Mor\u00e1lka Lidsk\u00e9 Mysli: Pro\u010d lidstvo rozd\u011bluje politika a n\u00e1bo\u017eenstv\u00ed",
+            "author": "Jonathan Haidt",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Mocn\u00ed a V\u0161emohouc\u00ed: \u00davahy o Bohu, Americe a mezin\u00e1rodn\u00edch vztaz\u00edch",
+            "author": "Madeleine Albrightov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "A Woman in Charge",
+            "author": "Carl Bernstein",
+            "language": "Angli\u010dtina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Homo Deus: Stru\u010dn\u00e1 hist\u00f3ria zajtraj\u0161ka",
+            "author": "Yuval Noah Harari",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Sapiens: Stru\u010dn\u00e1 hist\u00f3ria \u013eudstva",
+            "author": "Yuval Noah Harari",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "St\u0159et civilizac\u00ed: Boj kultur a prom\u011bna sv\u011btov\u00e9ho \u0159\u00e1du",
+            "author": "Samuel P. Huntington",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "18 + 1 jamka",
+            "author": "Otakar Dole\u017eal",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Golfov\u00e9 tipy I.",
+            "author": "Tom\u00e1\u0161 Ve\u010de\u0159a, Ji\u0159i Simbartl, Ond\u0159ej Fiala",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Schwarz hraje birdie",
+            "author": "Jaroslav Ku\u0165\u00e1k",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Kr\u00e1sna smrt aneb osmn\u00e1ct pov\u00eddek z golfu",
+            "author": "Jaroslav Ku\u0165\u00e1k, Lubom\u00edr Lich\u00fd",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ako sa zlep\u0161i\u0165 v golfe",
+            "author": "Colin Howe",
+            "language": "Sloven\u010dina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "1001 Golf Holes You Must Play Before You Die",
+            "author": "Robert Trent Jones Jr., Jeff Barr",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Great Golf Down Under",
+            "author": "Michael Clayton, Gary Lisbon",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Golf Anatomy",
+            "author": "Craig Davies, Vince DiSaia",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Let Me Teach You Golf As I Taught Jack Nicklaus",
+            "author": "Jack Grout, Dick Aultman",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Golf: Pr\u016fvodce sv\u011btem golfu",
+            "author": "Gary Whales, Duncan Gruickshank",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Tiger Woods: Jak j\u00e1 hraj\u00fa golf",
+            "author": "Tiger Woods, Golf Digest",
+            "language": "\u010ce\u0161tina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Tiger Woods: How I Play Golf",
+            "author": "Tiger Woods, Golf Digest",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Faults and Fixes: How to correct the 80 most common problems in golf",
+            "author": "David Leadbetter, John Huggan",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ilustrovan\u00e1 pravidla Golfu",
+            "author": "Royal & Ancient Golf Club of St. Andrews",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Where Bobby Learned to Play",
+            "author": "Linton C. Hopkins",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ot\u016fv golfn\u00edk pou\u010dn\u00edk: P\u0159es 3000 glosovan\u00fdch anglick\u00fdch v\u00fdraz\u016f u\u017e\u00edvan\u00fdch v golfu",
+            "author": "Otakar Dole\u017eal",
+            "language": "Angli\u010dtina",
+            "genre": "Golf",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "How to Talk to Anyone, Anytime, Anywhere: The Secrets of Good Communication",
+            "author": "Larry King, Bill Gilbert",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Who Killed Creativity... And How Can We Get It Back?",
+            "author": "Andrew Grant, Gaia Grant, Dr. Jason Gallate",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Unlimited Power",
+            "author": "Anthony Robbins",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Motivate Yourself: Get the Life You Want, Find Purpose and Achieve Fulfilment",
+            "author": "Andro Donovan",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Who Moved My Cheese?",
+            "author": "Spencer Johnson, M. D.",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "N\u00e1\u0161 \u013eadovec sa rozt\u00e1pa: Ako pre\u017ei\u0165 a uspie\u0165 v meniacom sa svete",
+            "author": "John Kotter, Holger Rathgeber",
+            "language": "Sloven\u010dina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Subtle Art of Not Giving a F*ck: A counterintuitive Approach to Living a Good Life",
+            "author": "Mark Manson",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Phantom TollBooth (Special 35th Anniversary Edition)",
+            "author": "Norton Juster",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Red Rubber Ball at Work: Elevate Your Game Through the Hidden Power of Play",
+            "author": "Kevin Carroll",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Working with Emotional Intelligence",
+            "author": "Daniel Goleman",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Posledn\u00e1 predn\u00e1\u0161ka",
+            "author": "Randy Pausch, Jeffrey Zaslov",
+            "language": "Sloven\u010dina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Strengths Finder 2.0",
+            "author": "Tom Rath",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Little Green Book of Getting Your Way: How to Speak, Write, Present, Persuade, Influence, and Sell Your Point of View to Others",
+            "author": "Jeffrey Gitomer",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Truth About You: Your Secret to Success",
+            "author": "Marcus Buckingham",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "How Not to Be Wrong: The Hidden Maths of Everyday Life",
+            "author": "Jordan Ellenberg",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Thinking, Fast and Slow",
+            "author": "Daniel Kahneman",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Business Intelligence for Dummies",
+            "author": "Swain Scheps",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Hard Think About Hard Things: Building a Business When THere Are No Answer",
+            "author": "Ben Horowitz",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Financial Intelligence for IT Proffesionals: What You Really need to Know About the Numbers",
+            "author": "Karen Berman, Joe Knoght, John Case",
+            "language": "Angli\u010dtina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Applied Insurance Analytics: A Framework for Driving More Value from Data Assets, Technologies and Tools",
+            "author": "Patricia L. Saporito",
+            "language": "Angli\u010dtina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Pohled zam\u011b\u0159eny do budoucnosti: P\u0159\u00edb\u011bh firmy PROCTER & GAMBLE",
+            "author": "Oscar Schisgall",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "It May Happen To Me: The Essential Guide to General Insurance (Second Edition)",
+            "author": "Dr. Allan Manning",
+            "language": "Angli\u010dtina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Essential Reads for Global Leaders (Special Edition)",
+            "author": "Harward Business Review",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "How Life Imitates Chess: Insight into life as a game of strategy",
+            "author": "Garry Kasparov",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Zero to One: Notes on Startups or How To Build the Future",
+            "author": "Peter Thiel, Blake Masters",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ako vybudova\u0165 \u00faspe\u0161n\u00fd biznis aj ke\u010f rob\u00edte jednu chybu za druhou",
+            "author": "Michal Truban",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Profit Principle: How to turn what you know into what you do - without spending or borrowing a cent",
+            "author": "Peter Fritz, Jeanne-Vida Douglas",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Big Data: Using smart big data analytics and metrics to make better decisions and improve performance",
+            "author": "Bernard Marr",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Hackers and Painters: Big Ideas from the Computer Age",
+            "author": "Paul Graham",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Insurance Transformed: Technological Disruption",
+            "author": "Michael Naylor",
+            "language": "Angli\u010dtina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Mana\u017eersk\u00e9 \u00fa\u010detnictv\u00ed",
+            "author": "Alena \u010cechov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Big Data Revolution: What farmers, doctors and insurance agents teach us about discovering big data patterns",
+            "author": "Rob Thomas, Patric McSharry",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Predictive Analytics: The power to predict who will click, buy, lie or die",
+            "author": "Eric Siegel",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Cyhtr\u00e1 d\u016fv\u011bra: Vytv\u00e1\u0159en\u00ed prosperity, osobn\u00ed energie a radosti ve sv\u011bte pln\u00e9m ned\u016fv\u011bry",
+            "author": "Stephen M. R. Covey, Greg Link",
+            "language": "\u010ce\u0161tina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "7 n\u00e1vyk\u016f skute\u010dne efektivn\u00edch lid\u00ed: Z\u00e1sady osobn\u00edho rozvoje, kter\u00e9 zm\u011bn\u00ed v\u00e1\u0161 \u017eivot",
+            "author": "Stephen R. Covey",
+            "language": "\u010ce\u0161tina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Living the 7 habits",
+            "author": "Stephen R. Covey",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The 7 Habits of Highly Effective People",
+            "author": "Stephen R. Covey",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+            "author": "Stephen R. Covey",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Speed of Trust: The One Thing That Changes Everything",
+            "author": "Stephen M. R. Covey",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Google Story: pohled do z\u00e1kulis\u00e1 nejv\u011bt\u0161\u00edho obchodn\u00edho, medi\u00e1ln\u00edho a technologick\u00e9ho \u00fasp\u011bchu na\u0161\u00ed doby",
+            "author": "David  A. Vise",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Steve Jobs",
+            "author": "Walter Isaacson",
+            "language": "\u010ce\u0161tina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Jack Welch a jeho Lexik\u00f3n l\u00eddrov",
+            "author": "Jeffrey A. Krames",
+            "language": "\u010ce\u0161tina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Enhancement: The Art of Changing Hearts, Minds and Actions",
+            "author": "Guy Kawasaki",
+            "language": "\u010ce\u0161tina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Bill Gates a Byznys: 10 tajemst\u00ed nejbohat\u0161\u00edho obchdn\u00edho magn\u00e1ta na sv\u011bte",
+            "author": "Des Dearlove",
+            "language": "\u010ce\u0161tina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Um\u011bn\u00ed v\u00e1lky",
+            "author": "Sun-C'",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "V prav\u00fd \u010das: Pravdiv\u00fd p\u0159\u00edb\u011bh Scotta McNealyho a vzestupu firmy MICROSYSTEMS",
+            "author": "Karen Southwick",
+            "language": "\u010ce\u0161tina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Multipliers: How the best leaders make everyone smarter",
+            "author": "Liz Wiseman, Greg McKeown",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Titans: The life of John D. Rockefeller, Sr.",
+            "author": "Ron Chernow",
+            "language": "Angli\u010dtina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Winning",
+            "author": "Jack Welch, Suzy Welch",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Jack: Straight from the gut",
+            "author": "Jack Welch, John A. Byrne",
+            "language": "Angli\u010dtina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Elon Musk: Tesla, SpaceX a h\u013eadanie fantastickej bud\u00facnosti",
+            "author": "Ashlee Vance",
+            "language": "Sloven\u010dina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Beyond the Robe",
+            "author": "Bobby Sager",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "The Last Islands: History of the Witsunday and Cumberland Islands",
+            "author": "John Bates",
+            "language": "Angli\u010dtina",
+            "genre": "Cestovate\u013esk\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "English Slovak Dictionary | Anglicko Slovensk\u00fd slovn\u00edk",
+            "author": "N/A",
+            "language": "Angli\u010dtina, Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "English Language Dictionary",
+            "author": "Collins Cobuild",
+            "language": "Angli\u010dnina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Moje prv\u00ed slova a v\u011bty: Za\u010d\u00edname se \u0160pan\u011bl\u0161tinou",
+            "author": "A. Wilkes, J. Shackell",
+            "language": "\u010ce\u0161tina, \u0160paniel\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Cambridge Preparation for the TOEFL Test",
+            "author": "Jolene Gear, Robert Gear",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Ital\u0161tina pro samouky",
+            "author": "N/A",
+            "language": "\u010ce\u0161tina, Talian\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Pass Key to the GMAT (Second Edition)",
+            "author": "Eugene D. Jaffe, Stephen Hilbert",
+            "language": "Angli\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Franc\u00faz\u0161tina pre samoukov",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Sloven\u010dina, Franc\u00fa\u017etina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Anglicko/Slovensk\u00fd frazeologick\u00fd slovn\u00edk",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Angli\u010dtina, Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Franc\u00fazsko/Slovensk\u00fd | Slovensko Franc\u00fazky Slovn\u00edk || Dictionnaire Fran\u00e7ais / Slovaque | Slovaque | Fran\u00e7ais",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Sloven\u010dina, Franc\u00fa\u017etina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "\u0160kola fotografovania: Techniky a triky majstrov",
+            "author": "National Geographic",
+            "language": "Sloven\u010dina",
+            "genre": "Fotografia",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "\u0160kola fotografovania: Krajina",
+            "author": "National Geographic",
+            "language": "Sloven\u010dina",
+            "genre": "Fotografia",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "A"
+        },
+        {
+            "title": "Practical English Dictionary: A clear, consise and inexpensive English Dictionary ideal for home and school use",
+            "author": "Holland Enterprises",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "The Way",
+            "author": "RedCard",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Webster's New World Dictionary of the American Language",
+            "author": "David B. Guralnik",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "The Storyteller's Secret: How TED Speakers and Inspirational Leaders Turn Their Passion into Performance",
+            "author": "Carmine Gallo",
+            "language": "Angli\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "The Google: Inside the Hottest Business, Media and Technologz of Our Time",
+            "author": "David A. Wise",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Geometric Death Frequency - 141",
+            "author": "Frederico D\u00edaz",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Outside Itself: Art is not art if it is created by the human hand",
+            "author": "Frederico D\u00edaz",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Slovensko-Po\u013esk\u00fd turistick\u00fd slovn\u00edk",
+            "author": "Alojz Capiak",
+            "language": "Sloven\u010dina, Po\u013e\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Angli\u010dtina: Prakticky jazykov\u00fd pr\u016fvodce",
+            "author": "Jaroslava Krej\u010d\u00ed, Milena Hnilicov\u00e1",
+            "language": "\u010ce\u0161tina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Czech Phrase Book & Dictionary",
+            "author": "Berlitz",
+            "language": "\u010ce\u0161tina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "\u0160pan\u011bl\u0161tina",
+            "author": "Polyglott",
+            "language": "\u010ce\u0161tina, \u0160paniel\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "What To Do About Worry",
+            "author": "Jay E. Adams",
+            "language": "Angl\u010dtina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Sila pozit\u00edvneho myslenia",
+            "author": "Norman Vincent Peale",
+            "language": "Sloven\u010dina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Tajemstv\u00ed vnit\u0159n\u00ed mluvy: \u00daspe\u0161n\u00e1 sebamanipulace",
+            "author": "Ivo Toman",
+            "language": "\u010ce\u0161tina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Kapitoly zo \u017eivota spolo\u010dnosti (Do\u010dasn\u00e9 u\u010debn\u00e9 texty pre stredn\u00e9 \u0161koly)",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Right Light: Industry and Engineering Outdoor Workplace",
+            "author": "OMS",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Slovakia ...for..the... World",
+            "author": "I. I. P. Slovakia",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Diplomov\u00e1 Pr\u00e1ca",
+            "author": "Peter Dovhun",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Lighting Management System",
+            "author": "OMS",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Lighting Services",
+            "author": "OMS",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "45 rokov vzdel\u00e1vania, vedy a v\u00fdskumu v obchodnovedn\u00fdch discipl\u00ednach",
+            "author": "Ekonomicka Univerzita v Bratislave",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Anglick\u00e1 Liter\u00e1rna \u010d\u00edtanka",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Sloven\u010dina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Dejiny filozofie",
+            "author": "Slovensk\u00e9 pedagogick\u00e9 nakladate\u013estvo",
+            "language": "Sloven\u010dina, Angli\u010dtina",
+            "genre": "Filozofia",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Zaostren\u00e9na v\u00fdskum a v\u00fdvoj",
+            "author": "Opera\u010dn\u00fd program V\u00ddSKUM A V\u00ddVOJ",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Ekonomick\u00e1 v\u011bda a ekonomick\u00e1 reforma",
+            "author": "V\u00e1clav Klaus",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "B"
+        },
+        {
+            "title": "Cloud Computing with the Windows Azure Platform",
+            "author": "Roger Jennings",
+            "language": "Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "\u0160tvrt\u00fd rozmer podnikania - etika",
+            "author": "Arnold S. Lukni\u010d",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Reklama je navo\u0148an\u00e1 zdochlina",
+            "author": "Oliver Toscani",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Lexikon spole\u010densk\u00e9ho chov\u00e1ni (\u010cerven\u00e1)",
+            "author": "Vladim\u00edr Smejkal",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Lexikon spole\u010densk\u00e9ho chov\u00e1ni (Zelen\u00e1)",
+            "author": "Vladim\u00edr Smejkal",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Lexikon spolo\u010densk\u00e9ho styku",
+            "author": "J. Beli\u010dka, V. \u010cikor, J. Gr\u00e1c, M. Majorov\u00e1, M. Marti\u0161ov\u00e1, E. Medveck\u00e1, P. Pa\u0161ka, J. Pito\u0148\u00e1k, V. \u0160\u00e1ndor, I. Verner",
+            "language": "\u0160loven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "\u010clovek hled\u00e1 \u010dlov\u011bka (2. vydan\u00ed)",
+            "author": "Eva Bedrnov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "96 '97",
+            "author": "Associate Public Relations Agentur",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Dovozov\u00fd a v\u00fdvozn\u00fd obchodn\u00fd pr\u00edpad",
+            "author": "Marta Smrekov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "\u0158\u00edzen\u00ed neziskov\u00fdch organizac\u00ed",
+            "author": "Peter F. Drucker",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Svetov\u00e9 Hospodarstvo: \u0161trukt\u00fara a v\u00fdvojov\u00e9 tendencie",
+            "author": "\u013dudmila Lipkov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Nez\u00fa\u010dtovan\u00e9 postrehy bank\u00e1ra",
+            "author": "Hans Vontobel",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Jak mysl\u00e1 \u0161pi\u010dkov\u00fd obchodn\u00edk",
+            "author": "Martin Limbeck",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Podnikov\u00e9 financie",
+            "author": "Karol Vlachynsk\u00fd a kolekt\u00edv",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Praktick\u00e1 reklama",
+            "author": "Heinz Schwalbe",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Informace pro marketing",
+            "author": "Hana Svobodn\u00e1, Lenka Myn\u00e1\u0159ov\u00e1, Robert Ka\u010der",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Medzin\u00e1rodn\u00fd marketing",
+            "author": "Eduard Urban",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Mana\u017e\u00e9ri na cudzom parkete: Ako prekon\u00e1va\u0165 n\u00e1strahy interkult\u00farnej komunik\u00e1cie",
+            "author": "Tom\u00e1\u0161 Borec",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Te\u00f3rie kapit\u00e1lu a \u00faroku a mechanizmus fungovania kapit\u00e1lov\u00e9ho trhu",
+            "author": "Veronika Piovar\u010diov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Joint Ventures: Teoretick\u00fd n\u00e1\u010drt a praktick\u00e9 sk\u00fasenosti",
+            "author": "Judita T\u00e1nco\u0161ov\u00e1",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Modern\u00e1 biznis etiketa pre man\u00e1\u017eerov",
+            "author": "Tom\u00e1\u0161 Borec",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Jak ps\u00e1t reklamn\u00e1 text",
+            "author": "Ivan Crha, Zden\u011bk K\u0159\u00ed\u017eek",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Public Relations: Cesta k \u00faspechu",
+            "author": "Ivan \u017d\u00e1ry",
+            "language": "Sloven\u010dina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Burzy a burzovn\u00ed obchody",
+            "author": "V\u00e1clav Bene\u0161, Peter Mus\u00edlek",
+            "language": "\u010ce\u0161tina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Reengineering: Radik\u00e1ln\u00ed prom\u011bna firmy",
+            "author": "Michael Hammer, James Champy",
+            "language": "\u010ce\u0161tina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "V\u0161etky va\u0161e hriechy alebo spr\u00e1va o \u0161kand\u00e1loch Dzurindovej vl\u00e1dy",
+            "author": "Robert \u010culen",
+            "language": "Sloven\u010dina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "KS\u010c a n\u00e1rodn\u00e9 v\u00fdbory na Slovensku v za\u010diatkoch socialistickej v\u00fdstavby",
+            "author": "Stanislav Sikora",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Vn\u00edtrofiremn\u00ed komunikace",
+            "author": "Ivana Hlou\u0161kov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Dobr\u00fdmi sp\u016fsoby k \u00fasp\u011bchu",
+            "author": "Helga Gfaderov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "Osobn\u00fd rast",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Hotelierstvo: ubytovanie zariadenia a ich slu\u017eby",
+            "author": "\u013dudmila Nov\u00e1cka",
+            "language": "Sloven\u010dina",
+            "genre": "Pohostinnos\u0165",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Za tajomstvami svetov\u00e9ho hospod\u00e1rstva",
+            "author": "Draho\u0161 \u0160\u00edbl",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "English-Czech Commercial Dictionary | Anglicko \u010cesk\u00fd slovn\u00edk",
+            "author": "Scientia",
+            "language": "\u010ce\u0161tina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Konverza\u010dn\u00e1 pr\u00edru\u010dka angli\u010dtiny pre pokro\u010dil\u00fdch",
+            "author": "Ladislav Kubi\u0161",
+            "language": "\u010ce\u0161tina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Anglick\u00fd jazyk pre 4. ro\u010dn\u00edk stredn\u00fdch \u0161k\u00f4l",
+            "author": "Richard Repka, Anna Bene\u0161ov\u00e1, Jan Sl\u00e1dek, Marie \u0160alkov\u00e1",
+            "language": "Sloven\u010dina, Angli\u010dtina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Public relations: z\u00e1sady komunikace s ve\u0159ejnost\u00ed",
+            "author": "Petr N\u011bmec",
+            "language": "\u010ce\u0161tina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Ba\u0165a: Ba\u0165ov\u00e1 pr\u016fmyslov\u00e1 demokrace",
+            "author": "Jaroslav Pochyl\u00fd",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Met\u00f3dy a \u0161t\u00fdly riadenia: Pr\u00edru\u010dka identifikovania a diagnostikovania",
+            "author": "Franti\u0161ek Lipt\u00e1k",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1u\u010dn\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "The Penguin Business Dictionary",
+            "author": "Michael Greener",
+            "language": "Angli\u010dtina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Encyklopedick\u00fd slovn\u00edk medzin\u00e1rodn\u00e9ho obchodu: A-\u017d",
+            "author": "\u013dubom\u00edr Michn\u00edk, Heda Hansenov\u00e1, \u013dubomila Lipkov\u00e1, Marta Smrekov\u00e1, Draho\u0161 \u0160ibl, \u0160tefan Torma",
+            "language": "Sloven\u010dina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Kde je v\u00f4\u013ea, tam je cesta",
+            "author": "Mikul\u00e1\u0161 Dzurinda",
+            "language": "Sloven\u010dina",
+            "genre": "\u017divotopis",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Business English: Porady, jedn\u00e1ni, sch\u016fzky",
+            "author": "Jana B\u00edlkov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Business English: Small talk",
+            "author": "Jana B\u00edlkov\u00e1",
+            "language": "\u010ce\u0161tina",
+            "genre": "Business",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Pr\u00e1vo pre ekon\u00f3mov",
+            "author": "Ivan Schultz",
+            "language": "Sloven\u010dina",
+            "genre": "Ekonomika",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "M\u00f4\u017ee\u0161 \u017ei\u0165 nav\u017edy v pozemskom raji",
+            "author": "Watch Tower Bible and Tract Society of New York",
+            "language": "Sloven\u010dina",
+            "genre": "N\u00e1bo\u017eensk\u00e1",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
+        },
+        {
+            "title": "Veselo v\u00e1\u017ene: My\u0161lienky bez cla",
+            "author": "Poradca s.r.o.",
+            "language": "Sloven\u010dina",
+            "genre": "Filozofia",
+            "room": "Tatkov\u00e1 pracovn\u0148a",
+            "shelf": "C"
         }
     ]
 }
