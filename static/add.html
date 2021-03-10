@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pridať knižku</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" href="sources/images/logo.jpeg">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/scripts.js"></script>
+    <script type="text/javascript" src="javascripts/animate.js"></script>
+  </head>
+
+  <body>
+    <div class="adding">
+      <form action="/submit" method="POST">
+        <h3>Pridať knižku</h3>
+
+        <br>
+
+        <input type="text" class="form-control addition" name="title" placeholder="Názov">
+        <input type="text" class="form-control addition" name="author" placeholder="Autor">
+        <input type="text" class="form-control addition" name="language" placeholder="Jazyk">
+        <input type="text" class="form-control addition" name="genre" placeholder="Žáner">
+        <input type="text" class="form-control addition" name="room" placeholder="Miestnosť">
+        <input type="text" class="form-control addition" name="shelf" placeholder="Polička">
+        <input type="submit" class="btn btn-success submit" value="Pridať">
+      </form>
+    </div>
+  </body>
+</html>

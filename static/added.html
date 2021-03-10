@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Knižka: {{ .Title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" href="sources/images/logo.jpeg">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/scripts.js"></script>
+    <script type="text/javascript" src="javascripts/animate.js"></script>
+
+    <style>
+      table {
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="adding">
+      <h3>Knižka <i>&quot{{ .Title }}&quot</i> bola pridaná</h3>
+      <br>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>Názov</th>
+            <th>Autor</th>
+            <th>Jazyk</th>
+            <th>Žáner</th>
+            <th>Miestnosť</th>
+            <th>Polička</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>{{ .Title }}</td>
+            <td>{{ .Author }}</td>
+            <td>{{ .Language }}</td>
+            <td>{{ .Genre }}</td>
+            <td>{{ .Room }}</td>
+            <td>{{ .Shelf }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <button type="button" class="btn btn-success" onclick="home()">Ok</button>
+    </div>
+  </body>
+</html>
