@@ -13,12 +13,17 @@
     <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascripts/scripts.js"></script>
     <script type="text/javascript" src="javascripts/animate.js"></script>
+
+    <style>
+      h3 {
+        margin-top: 1.5em;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="search">
+    <div class="container-fluid search">
       <h1 style="margin-bottom: 25px;">E-Knižnica</h1>
-      <a href="/add" class="add-book"><span>Pridať knižku</span></a>
       <h3>Hľadať podľa:</h3>
       
       <div class="form-check-inline">
@@ -105,16 +110,16 @@
         <input type="text" class="form-control input-field" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);" value="">
 
         <div class="input-group-append">
-          <button class="search-button fas fa-search left" type="submit" onclick="showResults()"></button>
-          <button class="search-button fas fa-book-medical searching" type="add" onclick="add()"></button>
+          <button class="search-button fas fa-search left btn-danger" type="submit" onclick="showResults()"></button>
+          <button class="search-button fas fa-book-medical searching btn-danger" type="add" onclick="add()"></button>
         </div>
       </div>
     </div>
 
-    <div class="outputs">
-      <h1 class="result">Výsledky</h1>
+    <div class="outputs container-fluid">
+      <h1 class="result" style="color: black">Výsledky</h1>
 
-      <table class="table">
+      <table class="table table-striped table-bordered table-hover">
         <thead>
           <tr>
             <th>Názov</th>

@@ -14,6 +14,12 @@
     <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascripts/scripts.js"></script>
     <script type="text/javascript" src="javascripts/animate.js"></script>
+
+    <style>
+      body {
+        background-color: orange;
+      }
+    </style>
   </head>
 
   <body>
@@ -23,13 +29,13 @@
 
         <br>
 
-        <input type="text" class="form-control addition" name="title" placeholder="Názov">
-        <input type="text" class="form-control addition" name="author" placeholder="Autor">
-        <input type="text" class="form-control addition" name="language" placeholder="Jazyk">
-        <input type="text" class="form-control addition" name="genre" placeholder="Žáner">
-        <input type="text" class="form-control addition" name="room" placeholder="Miestnosť">
-        <input type="text" class="form-control addition" name="shelf" placeholder="Polička">
-        <input type="submit" class="btn btn-success submit" value="Pridať">
+        <input id="title" type="text" class="form-control addition" name="title" placeholder="{{ .A }}" value="{{ .Title }}">
+        <input id="author" type="text" class="form-control addition" name="author" placeholder="{{ .B }}" value="{{ .Author }}">
+        <input id="language" type="text" class="form-control addition" name="language" placeholder="{{ .C }}" value="{{ .Language }}">
+        <input id="genre" type="text" class="form-control addition" name="genre" placeholder="{{ .D }}" value="{{ .Genre }}">
+        <input id="room" type="text" class="form-control addition" name="room" placeholder="{{ .E }}" value="{{ .Room }}">
+        <input id="shelf" type="text" class="form-control addition" name="shelf" placeholder="{{ .F }}" value="{{ .Shelf }}">
+        <input id="submit" type="submit" class="btn btn-success submit" value="Pridať" onclick="check()">
       </form>
     </div>
   </body>

@@ -33,6 +33,12 @@ type BookInfo struct {
 	Genre    string
 	Room     string
 	Shelf    string
+	A        string
+	B        string
+	C        string
+	D        string
+	E        string
+	F        string
 }
 
 func addHandler(w http.ResponseWriter, r *http.Request) {
@@ -47,12 +53,12 @@ func addHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	p := BookInfo{
-		Title:    "Lord of the Rings",
-		Author:   "Tolkien",
-		Language: "English",
-		Genre:    "Fantasy",
-		Room:     "My Room",
-		Shelf:    "A",
+		A: "Názov",
+		B: "Autor",
+		C: "Jazyk",
+		D: "Žáner",
+		E: "Miestnosť",
+		F: "Polička",
 	}
 
 	t, _ := template.ParseFiles("static/add.html")
@@ -72,6 +78,12 @@ func submitHandler(w http.ResponseWriter, r *http.Request) {
 		Genre:    r.FormValue("genre"),
 		Room:     r.FormValue("room"),
 		Shelf:    r.FormValue("shelf"),
+		A:        "Názov",
+		B:        "Autor",
+		C:        "Jazyk",
+		D:        "Žáner",
+		E:        "Miestnosť",
+		F:        "Polička",
 	}
 
 	if len(p.Title) > 0 && len(p.Author) > 0 && len(p.Language) > 0 && len(p.Genre) > 0 && len(p.Room) > 0 && len(p.Shelf) > 0 {
@@ -104,18 +116,24 @@ func submitHandler(w http.ResponseWriter, r *http.Request) {
 		t.Execute(w, p)
 
 	} else {
-		t, _ := template.ParseFiles("static/error.html")
+		t, _ := template.ParseFiles("static/add.html")
 		t.Execute(w, p)
+
+		fmt.Fprintf(
+			w,
+			"<script>alert('Jedno alebo viacero poličiek nebolo vyplnených');</script>")
 	}
 }
 
 func main() {
-	fileServer := http.FileServer(http.Dir("./static")) // New code
-	http.Handle("/", fileServer)                        // New code
-	http.HandleFunc("/add", addHandler)
-	http.HandleFunc("/submit", submitHandler)
+	fileServer := http.FileServer(http.Dir("./static")) // loads the side
+	http.Handle("/", fileServer)                        // loads index.html
+	http.HandleFunc("/add", addHandler)                 // handles /add link
+	http.HandleFunc("/submit", submitHandler)           // handles submitting a book
 
 	fmt.Printf("Starting server at port 4000\n")
+
+	// loads the site
 	if err := http.ListenAndServe(":4000", nil); err != nil {
 		log.Fatal(err)
 	}

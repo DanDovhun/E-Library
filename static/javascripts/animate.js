@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    $(".add-book").hide();
-
     $(".back").click(function() {
         window.location.replace("/add");
     });
@@ -14,12 +12,6 @@ $(document).ready(function() {
     });
 
     $(".genres").click(function() {
-        $(".all_genres").slideDown(500, function() {
-
-        });
-    });
-
-    $(".genres").mouseenter(function() {
         $(".all_genres").slideDown(500, function() {
 
         });
