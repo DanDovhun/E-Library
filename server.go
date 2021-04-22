@@ -119,6 +119,12 @@ func submitHandler(w http.ResponseWriter, r *http.Request) {
 		t, _ := template.ParseFiles("static/add.html")
 		t.Execute(w, p)
 
+		if len(p.Title) == 0 {
+			fmt.Fprintf(
+				w,
+				"<script>alert('Nazov');</script>")
+		}
+
 		fmt.Fprintf(
 			w,
 			"<script>alert('Jedno alebo viacero poličiek nebolo vyplnených');</script>")
