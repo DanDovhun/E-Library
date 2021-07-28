@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Knižnica</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" href="images/logo.jpeg">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/animate.js"></script>
+
+    <style>
+      h3 {
+        margin-top: 1.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form class="container-fluid search" action="/" method="POST">
+      <h1 style="margin-bottom: 25px;">E-Knižnica</h1>
+      <h3>Hľadať podľa:</h3>
+      
+      <div class="form-check-inline">
+        <label class="form-check-label" for="title">
+          <input type="radio" class="form-check-input" id="all" name="filter" value="all">Zobraziť všetko
+        </label>
+      </div>
+
+      <div class="form-check-inline">
+        <label class="form-check-label" for="title">
+          <input type="radio" class="form-check-input" id="title" name="filter" value="title">Názvu
+        </label>
+      </div>
+
+      <div class="form-check-inline">
+        <label class="form-check-label" for="author">
+          <input type="radio" class="form-check-input" id="author" name="filter" value="author">Autora
+        </label>
+      </div>
+
+      <div class="form-check-inline">
+        <label class="form-check-label" for="language">
+          <input type="radio" class="form-check-input" id="language" name="filter" value="language">Jazyku
+        </label>
+      </div>
+
+      <div class="form-check-inline genres">
+        <label class="form-check-label" for="genre">
+          <input type="radio" class="form-check-input" id="genre" name="filter" value="genre" onclick="hello()">Žánru
+        </label>
+      </div>
+
+      <div class="form-check-inline">
+        <label class="form-check-label" for="room">
+          <input type="radio" class="form-check-input" id="room" name="filter" value="room">Miestnosti
+        </label>
+      </div>
+
+      <div class="form-check-inline">
+        <label class="form-check-label" for="shelf">
+          <input type="radio" class="form-check-input" id="shelf" name="filter" value="shelf">Poličky
+        </label>
+      </div>
+
+      <div class="all_genres">
+        <h3 class="choices">Žánre</h3>
+
+        <select class="options custom-select mb-3" id="sel2" name="sellist2">
+          <option class="educational" id="educational choice" value="Náučná">Náučná</option>
+          <option class="adventure" id="adventure choice" value="Dobrodružná">Dobrodružná</option>
+          <option class="detective" id="detective choice" value="Detektívka">Detektívka</option>
+          <option class="religious" id="religious choice" value="Náboženská">Náboženská</option>
+          <option class="travel" id="travel choice" value="Cestovateľská">Cestovateľská</option>
+          <option class="music" id="music choice" value="Hudba">Hudba</option>
+          <option class="fantasy" id="fantasy choice" value="Fantasy">Fantasy</option>
+          <option class="scifi" id="scifi choice" value="Sci-fi">Sci-fi</option>
+          <option class="kids_stories" id="kids_stories choice" value="Detské rozprávky">Detské rozprávky</option>
+          <option class="drama" id="drama choice" value="Dráma">Dráma</option>
+          <option class="dystopia" id="dystopia choice" value="Dystopia">Dystopia</option>
+          <option class="biography" id="biography choice" value="Biografia">Biografia</option>
+          <option class="law" id="law choice" value="Zákon">Zákon</option>
+          <option class="kids_poems" id="kids_poems choice" value="Detské básničky">Detské básničky</option>
+          <option class="short_stories" id="short_stories choice" value="Poviedky">Poviedky</option>
+          <option class="dictionary" id="dictionary choice" value="Slovník">Slovník</option>
+          <option class="health" id="health choice" value="Zdravie">Zdravie</option>
+          <option class="philosophy" id="philosophy choice" value="Filozofia">Filozofia</option>
+          <option class="instructions" id="instructions choice" value="Návod">Návod</option>
+          <option class="diary" id="diary choice" value="Denník">Denník</option>
+          <option class="photography" id="photography choice" value="Fotografia">Fotografia</option>
+          <option class="personal_growth" id="personal_growth choice" value="Osobný rast">Osobný rast</option>
+          <option class="business" id="business choice" value="Business">Business</option>
+          <option class="politics" id="politics choice" value="Politics">Politics</option>
+          <option class="life_story" id="life_story choice" value="Životopis">Životopis</option>
+          <option class="golf" id="golf choice" value="Golf">Golf</option>
+          <option class="economics" id="economics choice" value="Ekonomika">Ekonomika</option>
+          <option class="hospitality" id="hospitality choice" value="Pohostinnosť">Pohostinnosť</option>
+        </select>
+
+        <p id="showeit"></p>
+        <p id="hide" class="hide">Skryť</p>
+      </div>
+
+      <div class="input-group mb-3 seatching">
+        <input name="search" type="text" class="form-control input-field" id="input" placeholder="Hľadať" style="border: 1px solid rgba(100, 120, 255, 0.6);" value="">
+
+        <div class="input-group-append">
+          <button class="search-button fas fa-search left btn-danger" type="submit" onclick="showResults()">Hľadať</button>
+          <button class="search-button fas fa-book-medical searching btn-danger" type="add" onclick="add()">Pridať</button>
+        </div>
+      </div>
+    </form>
+
+    {% if search %}
+      {% if found %} 
+        <div class="outputs container-fluid">
+          <h1 class="result" style="color: black">Výsledky</h1>
+    
+          <table class="table table-striped table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Názov</th>
+                <th>Autor</th>
+                <th>Jazyk</th>
+                <th>Žáner</th>
+                <th>Miestnosť</th>
+                <th>Polička</th>
+              </tr>
+            </thead>
+    
+            <tbody id="output"></tbody>
+          </table>
+        </div>
+      {% else %}
+        <h3>Nenašlo sa nič</h3>
+      {% endif %}
+    {% endif %}
+  </body>
+</html>
